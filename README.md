@@ -4,7 +4,7 @@
 
 A visual graph that resolves one human across multiple systems — GitHub, Slack, email, device fingerprints, directory entries — but only when there is cryptographic or system-level proof. Suspicion stays suspicion.
 
-**Live demo →** [your vercel link]
+**Live demo →** identity-resolution-graph.vercel.app
 
 ---
 
