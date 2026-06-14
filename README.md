@@ -69,9 +69,3 @@ The rule doesn't change. What changes is the pipe feeding edges in — a webhook
 **The merger scenario plays out automatically.** When `naman@oldco.com` completes SSO migration to `naman@company.com`, a new authoritative edge arrives. The two clusters merge. Every downstream number — spend, usage, license count — now reflects one person instead of two. No manual reconciliation.
 
 **The unresolved case is honest.** `mac-xyz999` might belong to naman. We don't know. So it stays as its own identity with an unresolved hint attached, and the system surfaces that gap rather than hiding it. A confidently wrong answer is worse than an honestly incomplete one.
-
----
-
-## Architecture
-
-Pure frontend — all resolution logic runs in the browser with no backend.
