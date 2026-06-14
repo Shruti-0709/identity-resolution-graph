@@ -28,7 +28,7 @@ for (const edge of authoritativeEdges) {
 }
 ```
 
-That's it. Every design decision in this project flows from that line.
+ Every design decision in this project flows from that line.
 
 ---
 
